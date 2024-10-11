@@ -4,4 +4,4 @@ pagina = Blueprint('pagina', __name__)
 
 @pagina.route('/')
 def index():
-    return render_template("idex.html")
+    return render_template("index.html")
