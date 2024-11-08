@@ -1,4 +1,4 @@
-from flask import Flask, renderizar_template, sessao, requisicao, redirecionar, url_para
+from flask import Flask, render_template, session, request, redirect, url_for
 from controllers import login, adm, carrinho
 from models import session, items
 
